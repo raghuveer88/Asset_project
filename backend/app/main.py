@@ -21,7 +21,11 @@ app.add_middleware(
 @app.on_event("startup")
 def on_startup() -> None:
     """Initialize database tables when FastAPI starts."""
-    init_db()
+    try:
+        init_db()
+    except Exception as exc:
+        # Keep the container alive so /api/health can expose the DB problem.
+        app.state.startup_db_error = str(exc)
 
 
 @app.get("/api/health")
