@@ -65,13 +65,6 @@ class ChatResponse(BaseModel):
 
 class DiagnosticsOut(BaseModel):
     db_connected: bool
-    db_error_type: str | None = None
-    db_error_message: str | None = None
-    database_url_shape: dict[str, Any] | None = None
-    cloudsql_dir_exists: bool | None = None
-    cloudsql_entries: list[str] = Field(default_factory=list)
-    expected_cloudsql_instance: str | None = None
-    expected_cloudsql_socket_path_exists: bool | None = None
     property_count: int
     properties_count: int = 0
     snapshot_count: int = 0

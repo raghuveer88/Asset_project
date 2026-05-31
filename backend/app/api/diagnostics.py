@@ -3,7 +3,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.config import get_settings
-from app.database import db_connection_diagnostics, get_db
+from app.database import check_db, get_db
 from app.models import (
     Property,
     RentRollChargeSummary,
@@ -28,13 +28,11 @@ def diagnostics_payload(db: Session) -> dict:
     OPENAI_API_KEY or other credentials.
     """
     settings = get_settings()
-    db_diagnostics = db_connection_diagnostics()
-    db_connected = db_diagnostics["db_connected"]
+    db_connected = check_db()
     chroma_status = collection_status()
     chroma_chunks = chroma_status.get("count") if isinstance(chroma_status, dict) else None
     if not db_connected:
         return {
-            **db_diagnostics,
             "db_connected": False,
             "property_count": 0,
             "properties_count": 0,
@@ -63,7 +61,6 @@ def diagnostics_payload(db: Session) -> dict:
     future_resident_count = db.scalar(select(func.count(RentRollFutureResident.id))) or 0
     website_page_count = db.scalar(select(func.count(WebsitePage.id))) or 0
     return {
-        **db_diagnostics,
         "db_connected": True,
         "property_count": property_count,
         "properties_count": property_count,

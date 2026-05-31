@@ -1,14 +1,9 @@
-import logging
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api import chat, diagnostics, ingest, properties
 from app.config import get_settings
-from app.database import db_connection_diagnostics, init_db
-
-
-logger = logging.getLogger(__name__)
+from app.database import init_db
 
 
 app = FastAPI(title="Asset AI", version="1.0.0")
@@ -31,7 +26,6 @@ def on_startup() -> None:
     except Exception as exc:
         # Keep the container alive so /api/health can expose the DB problem.
         app.state.startup_db_error = str(exc)
-        logger.error("Database initialization failed: %s", db_connection_diagnostics())
 
 
 @app.get("/api/health")
