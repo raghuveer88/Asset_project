@@ -1,0 +1,440 @@
+[
+  {
+    "property_code": "115r",
+    "property_name": "Canfield Park",
+    "official_property_name": "Canfield Park at Fairfield Metro",
+    "address": "306 Canfield Avenue, Bridgeport, CT 06605",
+    "website_url": "https://canfield-park.com/",
+    "scrape_urls": [
+      "https://canfield-park.com/",
+      "https://canfield-park.com/amenities/",
+      "https://canfield-park.com/floorplans/",
+      "https://canfield-park.com/neighborhood/",
+      "https://canfield-park.com/gallery/",
+      "https://canfield-park.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by property name and address."
+  },
+  {
+    "property_code": "126a",
+    "property_name": "The Halden",
+    "official_property_name": "The Halden",
+    "address": "1137 Westchester Ave, White Plains, NY 10605",
+    "website_url": "https://thehalden.com/",
+    "scrape_urls": [
+      "https://thehalden.com/",
+      "https://thehalden.com/amenities/",
+      "https://thehalden.com/floorplans/",
+      "https://thehalden.com/gallery/",
+      "https://thehalden.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 126r; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "126r",
+    "property_name": "The Halden",
+    "official_property_name": "The Halden",
+    "address": "1137 Westchester Ave, White Plains, NY 10605",
+    "website_url": "https://thehalden.com/",
+    "scrape_urls": [
+      "https://thehalden.com/",
+      "https://thehalden.com/amenities/",
+      "https://thehalden.com/floorplans/",
+      "https://thehalden.com/gallery/",
+      "https://thehalden.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 126a; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "134c",
+    "property_name": "55 Riverwalk Place",
+    "official_property_name": "Fifty-Five Riverwalk",
+    "address": "55 Riverwalk Place, West New York, NJ 07093",
+    "website_url": "https://55riverwalkplace.com/",
+    "scrape_urls": [
+      "https://55riverwalkplace.com/",
+      "https://55riverwalkplace.com/amenities/",
+      "https://55riverwalkplace.com/floorplans/",
+      "https://55riverwalkplace.com/neighborhood/",
+      "https://55riverwalkplace.com/gallery/",
+      "https://55riverwalkplace.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same property website as 134r/134land; code appears to represent commercial/accounting variant."
+  },
+  {
+    "property_code": "134land",
+    "property_name": "55 Riverwalk Place",
+    "official_property_name": "Fifty-Five Riverwalk",
+    "address": "55 Riverwalk Place, West New York, NJ 07093",
+    "website_url": "https://55riverwalkplace.com/",
+    "scrape_urls": [
+      "https://55riverwalkplace.com/",
+      "https://55riverwalkplace.com/amenities/",
+      "https://55riverwalkplace.com/floorplans/",
+      "https://55riverwalkplace.com/neighborhood/",
+      "https://55riverwalkplace.com/gallery/",
+      "https://55riverwalkplace.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same property website as 134r/134c; code appears to represent land/accounting variant."
+  },
+  {
+    "property_code": "134r",
+    "property_name": "Fifty-Five Riverwalk Place",
+    "official_property_name": "Fifty-Five Riverwalk",
+    "address": "55 Riverwalk Place, West New York, NJ 07093",
+    "website_url": "https://55riverwalkplace.com/",
+    "scrape_urls": [
+      "https://55riverwalkplace.com/",
+      "https://55riverwalkplace.com/amenities/",
+      "https://55riverwalkplace.com/floorplans/",
+      "https://55riverwalkplace.com/neighborhood/",
+      "https://55riverwalkplace.com/gallery/",
+      "https://55riverwalkplace.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same property website as 134c/134land."
+  },
+  {
+    "property_code": "138a",
+    "property_name": "Everbend Tarrytown",
+    "official_property_name": "Everbend",
+    "address": "1202 Crescent Drive, Tarrytown, NY 10591",
+    "website_url": "https://everbendny.com/",
+    "scrape_urls": [
+      "https://everbendny.com/",
+      "https://everbendny.com/amenities/",
+      "https://everbendny.com/floorplans/",
+      "https://everbendny.com/neighborhood/",
+      "https://everbendny.com/gallery/",
+      "https://everbendny.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 138r; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "138r",
+    "property_name": "Everbend Tarrytown",
+    "official_property_name": "Everbend",
+    "address": "1202 Crescent Drive, Tarrytown, NY 10591",
+    "website_url": "https://everbendny.com/",
+    "scrape_urls": [
+      "https://everbendny.com/",
+      "https://everbendny.com/amenities/",
+      "https://everbendny.com/floorplans/",
+      "https://everbendny.com/neighborhood/",
+      "https://everbendny.com/gallery/",
+      "https://everbendny.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 138a."
+  },
+  {
+    "property_code": "139c",
+    "property_name": "The Mill Greenwich",
+    "official_property_name": "The Mill",
+    "address": "10 Glenville Street, Greenwich, CT 06831",
+    "website_url": "https://themillgreenwich.com/",
+    "scrape_urls": [
+      "https://themillgreenwich.com/",
+      "https://themillgreenwich.com/amenities/",
+      "https://themillgreenwich.com/floorplans/",
+      "https://themillgreenwich.com/neighborhood/",
+      "https://themillgreenwich.com/gallery/",
+      "https://themillgreenwich.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 139r; code appears to represent commercial/accounting variant."
+  },
+  {
+    "property_code": "139r",
+    "property_name": "The Mill Greenwich",
+    "official_property_name": "The Mill",
+    "address": "10 Glenville Street, Greenwich, CT 06831",
+    "website_url": "https://themillgreenwich.com/",
+    "scrape_urls": [
+      "https://themillgreenwich.com/",
+      "https://themillgreenwich.com/amenities/",
+      "https://themillgreenwich.com/floorplans/",
+      "https://themillgreenwich.com/neighborhood/",
+      "https://themillgreenwich.com/gallery/",
+      "https://themillgreenwich.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 139c."
+  },
+  {
+    "property_code": "143a",
+    "property_name": "The Ellsworth",
+    "official_property_name": "The Ellsworth",
+    "address": "2113 Ellsworth Blvd, Malta, NY 12020",
+    "website_url": "https://ellsworthny.com/",
+    "scrape_urls": [
+      "https://ellsworthny.com/",
+      "https://ellsworthny.com/amenities/",
+      "https://ellsworthny.com/floorplans/",
+      "https://ellsworthny.com/neighborhood/",
+      "https://ellsworthny.com/gallery/",
+      "https://ellsworthny.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 143c; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "143c",
+    "property_name": "The Ellsworth",
+    "official_property_name": "The Ellsworth",
+    "address": "2113 Ellsworth Blvd, Malta, NY 12020",
+    "website_url": "https://ellsworthny.com/",
+    "scrape_urls": [
+      "https://ellsworthny.com/",
+      "https://ellsworthny.com/amenities/",
+      "https://ellsworthny.com/floorplans/",
+      "https://ellsworthny.com/neighborhood/",
+      "https://ellsworthny.com/gallery/",
+      "https://ellsworthny.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 143a; code appears to represent commercial/accounting variant."
+  },
+  {
+    "property_code": "144r",
+    "property_name": "Winners Circle",
+    "official_property_name": "Winner's Circle at Saratoga",
+    "address": "100 Madison Drive, Ballston Spa, NY 12020",
+    "website_url": "https://winnerscircleatsaratoga.com/",
+    "scrape_urls": [
+      "https://winnerscircleatsaratoga.com/",
+      "https://winnerscircleatsaratoga.com/amenities/",
+      "https://winnerscircleatsaratoga.com/floorplans/",
+      "https://winnerscircleatsaratoga.com/neighborhood/",
+      "https://winnerscircleatsaratoga.com/gallery/",
+      "https://winnerscircleatsaratoga.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website spells name as Winner's Circle at Saratoga."
+  },
+  {
+    "property_code": "153a",
+    "property_name": "Abbot Mill",
+    "official_property_name": "Abbot Mill",
+    "address": "1 Pleasant Street, Westford, MA 01886",
+    "website_url": "https://abbotmill.com/",
+    "scrape_urls": [
+      "https://abbotmill.com/",
+      "https://abbotmill.com/amenities/",
+      "https://abbotmill.com/floorplans/",
+      "https://abbotmill.com/neighborhood/",
+      "https://abbotmill.com/gallery/",
+      "https://abbotmill.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 153c/153r; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "153c",
+    "property_name": "Abbot Mill",
+    "official_property_name": "Abbot Mill",
+    "address": "1 Pleasant Street, Westford, MA 01886",
+    "website_url": "https://abbotmill.com/",
+    "scrape_urls": [
+      "https://abbotmill.com/",
+      "https://abbotmill.com/amenities/",
+      "https://abbotmill.com/floorplans/",
+      "https://abbotmill.com/neighborhood/",
+      "https://abbotmill.com/gallery/",
+      "https://abbotmill.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 153a/153r; code appears to represent commercial/accounting variant."
+  },
+  {
+    "property_code": "153r",
+    "property_name": "Abbot Mill",
+    "official_property_name": "Abbot Mill",
+    "address": "1 Pleasant Street, Westford, MA 01886",
+    "website_url": "https://abbotmill.com/",
+    "scrape_urls": [
+      "https://abbotmill.com/",
+      "https://abbotmill.com/amenities/",
+      "https://abbotmill.com/floorplans/",
+      "https://abbotmill.com/neighborhood/",
+      "https://abbotmill.com/gallery/",
+      "https://abbotmill.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 153a/153c."
+  },
+  {
+    "property_code": "175r",
+    "property_name": "Kinwood Apartments",
+    "official_property_name": "Kinwood",
+    "address": "2 River Chase Drive, Rensselaer, NY 12144",
+    "website_url": "https://kinwoodny.com/",
+    "scrape_urls": [
+      "https://kinwoodny.com/",
+      "https://kinwoodny.com/amenities/",
+      "https://kinwoodny.com/floorplans/",
+      "https://kinwoodny.com/neighborhood/",
+      "https://kinwoodny.com/gallery/",
+      "https://kinwoodny.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by name and Rensselaer address."
+  },
+  {
+    "property_code": "176r",
+    "property_name": "The Alexander",
+    "official_property_name": "The Alexander Apartments",
+    "address": "4390 King Street, Alexandria, VA 22302",
+    "website_url": "https://www.livingalexander.com/",
+    "scrape_urls": [
+      "https://www.livingalexander.com/",
+      "https://www.livingalexander.com/floorplans",
+      "https://www.livingalexander.com/amenities",
+      "https://www.livingalexander.com/photogallery",
+      "https://www.livingalexander.com/mapsanddirections"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by name and address."
+  },
+  {
+    "property_code": "183a",
+    "property_name": "Luckey Platt",
+    "official_property_name": "Luckey Platt",
+    "address": "57 Cannon Street, Poughkeepsie, NY 12601",
+    "website_url": "https://luckeyplatt.com/",
+    "scrape_urls": [
+      "https://luckeyplatt.com/",
+      "https://luckeyplatt.com/amenities/",
+      "https://luckeyplatt.com/floorplans/",
+      "https://luckeyplatt.com/neighborhood/",
+      "https://luckeyplatt.com/gallery/",
+      "https://luckeyplatt.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 183c/183r; code appears to represent an accounting/property variant."
+  },
+  {
+    "property_code": "183c",
+    "property_name": "Luckey Platt",
+    "official_property_name": "Luckey Platt",
+    "address": "57 Cannon Street, Poughkeepsie, NY 12601",
+    "website_url": "https://luckeyplatt.com/",
+    "scrape_urls": [
+      "https://luckeyplatt.com/",
+      "https://luckeyplatt.com/amenities/",
+      "https://luckeyplatt.com/floorplans/",
+      "https://luckeyplatt.com/neighborhood/",
+      "https://luckeyplatt.com/gallery/",
+      "https://luckeyplatt.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 183a/183r; code appears to represent commercial/accounting variant."
+  },
+  {
+    "property_code": "183r",
+    "property_name": "Luckey Platt",
+    "official_property_name": "Luckey Platt",
+    "address": "57 Cannon Street, Poughkeepsie, NY 12601",
+    "website_url": "https://luckeyplatt.com/",
+    "scrape_urls": [
+      "https://luckeyplatt.com/",
+      "https://luckeyplatt.com/amenities/",
+      "https://luckeyplatt.com/floorplans/",
+      "https://luckeyplatt.com/neighborhood/",
+      "https://luckeyplatt.com/gallery/",
+      "https://luckeyplatt.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Same website as 183a/183c."
+  },
+  {
+    "property_code": "184r",
+    "property_name": "Lakeshore Preserve",
+    "official_property_name": "Lakeshore Preserve",
+    "address": "557 Broadway, Port Ewen, NY 12466",
+    "website_url": "https://livelakeshorepreserve.com/",
+    "scrape_urls": [
+      "https://livelakeshorepreserve.com/",
+      "https://livelakeshorepreserve.com/amenities/",
+      "https://livelakeshorepreserve.com/floorplans/",
+      "https://livelakeshorepreserve.com/neighborhood/",
+      "https://livelakeshorepreserve.com/gallery/",
+      "https://livelakeshorepreserve.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by name and address."
+  },
+  {
+    "property_code": "185r",
+    "property_name": "Waterfront at the Strand",
+    "official_property_name": "The Waterfront at the Strand",
+    "address": "111 Hudson Valley Landing, Kingston, NY 12401",
+    "website_url": "https://livewaterfrontstrand.com/",
+    "scrape_urls": [
+      "https://livewaterfrontstrand.com/",
+      "https://livewaterfrontstrand.com/amenities/",
+      "https://livewaterfrontstrand.com/floorplans/",
+      "https://livewaterfrontstrand.com/gallery/",
+      "https://livewaterfrontstrand.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by name and address."
+  },
+  {
+    "property_code": "462a",
+    "property_name": "Stony Run",
+    "official_property_name": "Stony Run at the Stockade",
+    "address": "305 Hurley Ave, Kingston, NY 12401",
+    "website_url": "https://stonyrunstockade.com/",
+    "scrape_urls": [
+      "https://stonyrunstockade.com/",
+      "https://stonyrunstockade.com/amenities/",
+      "https://stonyrunstockade.com/floorplans/",
+      "https://stonyrunstockade.com/gallery/",
+      "https://stonyrunstockade.com/contact/"
+    ],
+    "scrape_enabled": true,
+    "match_confidence": "high",
+    "notes": "Official property website matched by close name and address; rent roll uses shorter name Stony Run."
+  },
+  {
+    "property_code": "altapm",
+    "property_name": "AltaPM",
+    "official_property_name": "AltaPM",
+    "address": null,
+    "website_url": null,
+    "scrape_urls": [],
+    "scrape_enabled": false,
+    "match_confidence": "needs_manual_review",
+    "notes": "No reliable public apartment/community website found from the rent-roll name alone. This appears to be a placeholder/management/accounting entity rather than a standard property website. Keep disabled"
+  }
+]

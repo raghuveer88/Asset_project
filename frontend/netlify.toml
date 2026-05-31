@@ -1,0 +1,8 @@
+[build]
+command = "npm run build:netlify"
+publish = "dist/asset-ai-frontend/browser"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200

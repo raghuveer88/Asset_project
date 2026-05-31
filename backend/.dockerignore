@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+app/**/__pycache__/
+*.pyc
+*.pyo
+*.log
+.pytest_cache/
+.venv/
+venv/
+env/
+*.json
+!*property_websites.json
+*service-account*.json
+*service_account*.json
+*credentials*.json

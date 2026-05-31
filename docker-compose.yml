@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: asset-ai-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: las_assets
+      MYSQL_USER: las_assets_user
+      MYSQL_PASSWORD: las_assets_password
+      MYSQL_ROOT_PASSWORD: assets_root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - asset_ai_mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-ulas_assets_user", "-plas_assets_password"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  asset_ai_mysql_data:
