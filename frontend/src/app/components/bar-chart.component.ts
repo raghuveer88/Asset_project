@@ -11,10 +11,10 @@ import { ResponseComponent } from '../models/api.models';
       <h3>{{ component.title }}</h3>
       <p class="empty-state" *ngIf="!hasData">No data available for this view.</p>
       <div class="bar-chart" *ngIf="hasData">
-        <div class="bar-row" *ngFor="let item of data">
-          <span>{{ item[labelKey] }}</span>
-          <div><i [style.width.%]="width(item)"></i></div>
-          <strong>{{ formatValue(item[valueKey]) }}</strong>
+        <div class="bar-row" *ngFor="let item of chartRows" [class.negative]="item.isNegative">
+          <span>{{ item.label }}</span>
+          <div><i [style.width.%]="item.widthPercent"></i></div>
+          <strong>{{ formatValue(item.rawValue) }}</strong>
         </div>
       </div>
     </section>
@@ -39,10 +39,17 @@ export class BarChartComponent {
     return this.data.length > 0 && this.data.some((row) => row[this.labelKey] !== undefined && row[this.valueKey] !== undefined);
   }
 
-  /** Scales one bar against the largest visible value in the chart. */
-  width(item: Record<string, unknown>): number {
-    const max = Math.max(...this.data.map((row) => Number(row[this.valueKey]) || 0), 1);
-    return ((Number(item[this.valueKey]) || 0) / max) * 100;
+  get chartRows(): { label: unknown; rawValue: number; widthPercent: number; isNegative: boolean }[] {
+    const maxAbs = Math.max(...this.data.map((row) => Math.abs(this.numericValue(row[this.valueKey]))), 1);
+    return this.data.map((row) => {
+      const rawValue = this.numericValue(row[this.valueKey]);
+      return {
+        label: row[this.labelKey],
+        rawValue,
+        widthPercent: (Math.abs(rawValue) / maxAbs) * 100,
+        isNegative: rawValue < 0
+      };
+    });
   }
 
   get isMoneyChart(): boolean {
@@ -51,10 +58,15 @@ export class BarChartComponent {
 
   /** Formats chart values as dollars only for money metrics. */
   formatValue(value: unknown): string {
-    const number = Number(value) || 0;
+    const number = this.numericValue(value);
     if (this.isMoneyChart) {
       return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(number);
     }
     return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(number);
+  }
+
+  private numericValue(value: unknown): number {
+    const number = Number(value);
+    return Number.isFinite(number) ? number : 0;
   }
 }

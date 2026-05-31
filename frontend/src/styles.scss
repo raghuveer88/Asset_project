@@ -374,6 +374,14 @@ th {
   background: #d97706;
 }
 
+.bar-row.negative i {
+  background: #dc2626;
+}
+
+.bar-row.negative strong {
+  color: #991b1b;
+}
+
 .bar-row strong,
 .bar-row span {
   overflow: hidden;
