@@ -50,10 +50,16 @@ export class DataTableComponent {
   /** Formats table cells, including currency-like numeric columns. */
   value(row: Record<string, unknown>, col: string): string {
     const value = row[col];
-    if (typeof value === 'number' && (col.includes('rent') || col.includes('balance') || col.includes('amount'))) {
+    if (typeof value === 'number' && this.isMoneyColumn(col)) {
       return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value);
     }
     return value === null || value === undefined || value === '' ? '-' : String(value);
   }
-}
 
+  private isMoneyColumn(col: string): boolean {
+    if (col.startsWith('residents_with_')) {
+      return false;
+    }
+    return col.includes('rent') || col.includes('balance') || col.includes('amount');
+  }
+}
