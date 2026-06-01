@@ -193,7 +193,6 @@ def contextual_followups(question: str, route: str, tools_used: list[str], tool_
         ]
     elif "get_unit_lookup" in tool_set:
         followups = [
-            Followup(label="Unit History", question="Has this unit changed across months?", route_hint="PROPERTY_ANALYTICS"),
             Followup(label="Vacant Units", question="Show vacant units.", route_hint="PROPERTY_ANALYTICS"),
             Followup(label="Unit Mix", question="Show unit type mix.", route_hint="PROPERTY_ANALYTICS"),
         ]
