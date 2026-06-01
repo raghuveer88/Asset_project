@@ -275,3 +275,12 @@ I would also improve source traceability for SQL-derived answers and add better 
 ### LangSmith Trace
 
 ![LangSmith trace for a chat request](docs/Langsmith.png)
+
+
+### Cloud Run Backend Deployment
+
+![Cloud Run backend service](docs/cloud-run-backend.png)
+
+### Cloud SQL MySQL Database
+
+![Cloud SQL MySQL database tables](docs/cloud-sql-mysql.png)
